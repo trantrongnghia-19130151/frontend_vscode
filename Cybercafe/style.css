@@ -1,0 +1,25 @@
+.Menu{
+    text-align: center;
+    background-color: #3a4a59;
+}
+.h1{
+    text-align: center;
+    color: white;
+}
+.link{
+    color: white;
+}
+.Content_about{
+    background-color: white;
+    text-align: center;
+}
+.h2{
+    color: #996633;
+    text-align: center;
+}
+.list{
+    color: blue;
+    marker: none;
+}
+
+

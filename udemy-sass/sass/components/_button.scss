@@ -1,0 +1,3 @@
+btn-red{
+    @include styleButton($color-red-0, $color-white-0, $pd-1, $pd-2, $color-red-0, $border-radius);
+}

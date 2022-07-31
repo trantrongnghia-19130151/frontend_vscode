@@ -1,0 +1,48 @@
+.info{
+    background: rgb(26, 26, 26);
+    padding: 50px;
+}
+.card-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    color: #fff;
+    background-color: rgba(32, 32, 32, 0.803);
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: 0.25rem;
+    height: 100%;
+    img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+    }
+    .table {
+        margin: 10px;
+      
+    }
+    .list-group {
+        
+            .list-group-item {
+                display: flex;
+                color: #fff;
+                justify-content: space-between;
+                align-items: center;
+            }
+        
+    }
+    ul {
+        li {
+            color: #fff;
+            background: #202020cb;
+        }
+    }
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}

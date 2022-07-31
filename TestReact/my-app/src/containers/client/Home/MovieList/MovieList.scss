@@ -1,0 +1,70 @@
+$color-lodoading: #3498db;
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid $color-lodoading; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    z-index: 100;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.detail {
+    padding: 150px 0 150px 0;
+    background: rgb(24, 24, 24);
+}
+.card-text {
+    display: -webkit-box;
+    width: 100%;
+    line-height: 25px;
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.card {
+    border-radius: 10px;
+    padding: 0;
+    background: rgb(43, 42, 42);
+    box-shadow: 5px 5px 8px #000000;
+    transition: all 0.5s;
+    .card-img {
+        height: 350px;
+        overflow: hidden;
+        border-radius: 10px 10px 0 0;
+        .card-img-top {
+            height: 100%;
+            border-radius: 10px 10px 0 0;
+
+            transition: all 0.5s;
+        }
+    }
+    &:hover img {
+        transform: scale(1.2);
+    }
+
+   
+}
+
+.card-text {
+    height: 50px;
+}
+.card-body .card-title {
+    display: -webkit-box;
+    width: 100%;
+    line-height: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    color: white;
+    -webkit-box-orient: vertical;
+}

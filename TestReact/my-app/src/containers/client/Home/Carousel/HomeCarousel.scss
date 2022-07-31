@@ -1,0 +1,15 @@
+.carousel{
+    height: 630px;
+    color: #fff;
+    line-height: 160px;
+    text-align: center;
+    margin-top: 93px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ant-carousel .slick-dots li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}

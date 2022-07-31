@@ -1,0 +1,28 @@
+{
+    "products":[
+        {
+        "id": "1",
+        "tenSP": "Note 7",
+        "gia": "20000",
+        "hinhAnh": "./assets/img/sp_note7.png"
+        },
+        {
+        "id": "2",
+        "tenSP": "Vivo",
+        "gia": "10000",
+        "hinhAnh": "./assets/img/sp_vivo850.png"
+        },
+        {
+        "id": "3",
+        "tenSP": "Black Berry",
+        "gia": "12000",
+        "hinhAnh": "./assets/img/sp_blackberry.png"
+        },
+        {
+        "id": "4",
+        "tenSP": "Iphone X",
+        "gia": "20000",
+        "hinhAnh": "./assets/img/sp_iphoneX.png"
+        }
+        ]
+}

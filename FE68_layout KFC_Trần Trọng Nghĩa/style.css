@@ -1,0 +1,49 @@
+.header h1 {
+    background-color: red;
+    color: white;
+    text-align: left;
+}
+.header img{
+    width:100px ;
+    height: 100px;
+}
+.category a{
+    font-size: 20px;
+    display: block;
+}
+#info {
+    text-align: justify;
+    font-size: 30px;
+    background-color:brown ;
+    color: white;
+}
+#info h1{
+    text-align: center;
+}
+#info b{
+    color: black;
+}
+#info img{
+    width: 50%;
+    
+}
+#location{
+    background-color: #A52A2A;
+}
+#location h1{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.list{
+    color: white;
+    font-size: 20px;
+}
+.table_menu{
+    text-align: center;
+}
+.table_menu table{
+    border: 1;
+    width: 900px;
+    height: 800px;
+}

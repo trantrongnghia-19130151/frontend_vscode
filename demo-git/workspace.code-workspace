@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\FE68\\demo-tix"
+		},
+		{
+			"path": "..\\FE68\\FE68_Instruction\\demo-tixvn\\project_cypersoft_tixvn"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "project_cypersoft_tixvn"
+	}
+}

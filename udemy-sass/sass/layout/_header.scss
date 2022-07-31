@@ -1,0 +1,61 @@
+header{
+    @include styleText($fs-0, $fw-normal, $color-black-light);
+    .header__left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .navbar-brand{
+            img{
+                width: 110px;
+            }
+        }
+        .header__cate{
+            margin-right: $mg-1;
+        }
+        .header__search{
+            flex-grow: 1;
+        }
+    }
+    .header__right{
+        .navbar-nav{
+            justify-content: space-between;
+            .nav-item{
+                .nav-link:nth-child(1), .nav-link:nth-child(2){
+                    white-space: nowrap;
+                }
+            }
+            .header__btnGroup{
+                white-space: nowrap;
+            }
+        }
+    }
+    
+}
+//responsive
+// tho kieu max width
+@include responsive('extra-large'){
+    .header__right{
+        .header__business--hide, .header__teach--hide{
+            display: none;
+        }
+        .header__btnGroup{
+            .btn:first-of-type{
+                margin: 0 $mg-1;
+
+            }
+        }
+    }
+
+}
+@include responsive('medium'){
+    .header__right{
+        .header__btnGroup{
+            display: none;
+        }
+    }
+    .header__left{
+        .header__cate, .header__search{
+            display: none;
+        }
+    }
+}

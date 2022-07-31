@@ -1,0 +1,33 @@
+// biến(variable)
+$bg-color:pink;
+
+
+h1 {
+    background-color:$bg-color;
+    font-size: 100px;
+    color:aqua;
+}
+.sec1{
+    background-color: $bg-color;
+    h2{
+        background-color: orange;
+    }
+
+    p{
+        color: rgb(12, 209, 12);
+    }
+    button{
+        background-color: red;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        transition: all 1.5s;
+       
+        &:hover{
+            background-color: rgb(252, 87, 10);
+           transition: all .2s;
+
+        }
+    }
+
+}

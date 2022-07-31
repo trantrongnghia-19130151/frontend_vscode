@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontwawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- ggfont -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Meipaly</title>
+</head>
+
+<body>
+    <header>
+        <div class="header__content">
+            <a href="#" class="header__logo">
+                <i class="fab fa-atlassian">
+                </i>
+                <span>meipaly</span>
+            </a>
+            <nav>
+                <ul>
+                    <li class="active">
+                        <a href="#">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#">SERVICE</a>
+                    </li>
+                    <li>
+                        <a href="#">SHOWCASE</a>
+                    </li>
+                    <li>
+                        <a href="#">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="#">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="carousel">
+        <div class="carousel__content">
+            <p>WELCOME TO MEIPALY AGENCY</p>
+            <h1>SMART WEB <br> DESIGN AGENCY</h1>
+            <button>READ MORE</button>
+            <div class="carousel__scroll">
+                <i class="fa fa-chevron-down">
+
+                </i>
+            </div>
+        </div>
+    </section>
+    <section class="service">
+        <div class="service__content">
+            <div class="service__title">
+                <p>SERVICES WE ARE OFFERING</p>
+                <h1>WE DESIGN DIGITAL PRODUCTS THAT HELP GROW <br> BUSINESSES.</h1>
+                <p>We are committed to providing our customers with exceptional service while offering
+                <br> our employees the best training.</p>
+            </div>
+            <div class="service__slider">
+                <div class="slick-slider">
+                    <div class="item">
+                        <i class="fa fa-blog"></i>
+                        <p>
+                            WEBSITE<br>DEVELOPMENT
+                        </p>
+                    </div>
+                    <div class="item">
+                        <i class="fab fa-battle-net"></i>
+                        <p>
+                            SEO & CONTENT <br>WRITING
+                        </p>
+                    </div>
+                    <div class="item">
+                        <i class="fa fa-memory"></i>
+                        <p>
+                            APP MOBILE<br>DEVELOPMENT
+                        </p>
+                    </div>
+                    <div class="item">
+                        <i class="fa fa-dice-d6"></i>
+                        <p>
+                            APP MOBILE<br>DEVELOPMENT
+                        </p>
+                    </div>
+                    <div class="item">
+                        <i class="fab fa-autoprefixer"></i>
+                        <p>
+                            DIGITAL<br> MARKETING
+                        </p>
+                    </div>
+                    <div class="item">
+                        <i class="fab fa-500px"></i>
+                        <p>
+                            SEO & CONTENT <br>WRITING
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slick-slider').slick({
+            // setting-name: setting-value
+            infinite: true,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            autoplay: true,
+            dots:true,
+            arrows: false,
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+.movie{
+    background-color: rgb(43, 42, 42);
+}
+
+.movie-detail {
+    padding-top: 93px;
+    .img-fluid {
+        width: 250px;
+        height: 350px;
+    }
+//     .movie-content {
+//         // h3{
+//         //     text-align: left;
+//         // }
+//         // p{
+//         //     text-align: left;
+//         // }
+//     }
+}
+.modal-content {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+.theater{
+    box-shadow: 6px 6px 12px 5px rgb(163, 163, 163);
+}
+.theater-content {
+    
+    height: 40px;
+    color: black;
+    line-height: 39px;
+    margin-bottom: 10px;
+}
+.theater-detail{
+    border: 1px solid #000;
+    border-radius: 5px;
+    img{
+        width: 6%;
+        height: 6%;
+        margin-right: 10px;
+    }
+    button{
+        border:2px solid rgb(8, 182, 8);
+        border-radius: 5px;
+        background: #fff;
+        padding: 5px 10px;
+        color: rgb(8, 182, 8);
+        transition: all .5s;
+        &:hover{
+            //border:2px solid rgb(8, 182, 8);
+            background: rgb(8, 182, 8);
+            color: #fff;
+        }
+    }
+    
+}

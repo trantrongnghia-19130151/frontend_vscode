@@ -1,0 +1,67 @@
+
+.booking-ticket{
+    background: rgba(24, 24, 24, 0.851);
+}
+.seatPlan{
+    padding-bottom: 93px ;
+    
+    .screen{
+       margin-left: 58px;
+       color: #fff;
+        width: 80%;
+        background: rgb(9, 9, 9);
+        height: 25px;
+        box-shadow:3px 26px 44px 14px rgb(53, 52, 52);
+    }
+    .seat{
+        flex-wrap: wrap;
+        margin-top: 70px;
+    }
+    .seat-info{
+        background: rgba(29, 28, 28, 0.49);
+        height: 80%;
+        color: #fff;
+        border: 1px solid #000;
+        border-radius: 5px;
+        box-shadow: 6px 6px 12px 5px rgb(53, 52, 52);
+        padding: 10px;
+        h3{
+            color: #fff;
+
+        }
+        h6{
+            color: #fff;
+        }
+        hr{
+            color: #fff;
+        }
+       
+    }
+    .ghe{
+       
+        width:35px;
+        height: 35px;
+        padding: auto;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 5px;
+        background-color: rgb(123, 123, 123);
+    }
+    .gheDaDat{
+        background-color: red;
+        cursor: no-drop;
+    }
+    .gheDangDat{
+        background-color:rgb(8, 190, 8) !important;
+        
+    }
+    .gheVip{
+        background-color: rgb(231, 177, 0);
+    }
+    .gheDaDuocDat{
+        background-color: rgb(18, 2, 236);
+        border: 1px solid rgb(13, 202, 3);
+        color: #fff;
+    }
+}

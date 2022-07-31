@@ -1,0 +1,33 @@
+h1 {
+  background-color: pink;
+  font-size: 100px;
+  color: aqua;
+}
+
+.sec1 {
+  background-color: pink;
+}
+
+.sec1 h2 {
+  background-color: orange;
+}
+
+.sec1 p {
+  color: #0cd10c;
+}
+
+.sec1 button {
+  background-color: red;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+.sec1 button:hover {
+  background-color: #fc570a;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+/*# sourceMappingURL=main.css.map */
